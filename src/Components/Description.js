@@ -1,4 +1,5 @@
 import "../CSS/Description.css";
+import "../CSS/Experience.css";
 
 const Description = () => {
   const intro =
@@ -7,9 +8,12 @@ const Description = () => {
     "而我最喜歡的一句話 : Learning by doing, 不斷學習是讓自己進步的動力，在學習中總是可以發現新事物，並且善加利用,將所學的技術實作在我的作品中。";
 
   return (
-    <div className="description">
-      <p>{intro}</p>
-      <p>{end}</p>
+    <div>
+      <div className="title_title">自我介紹</div>
+      <div className="description">
+        <p>{intro}</p>
+        <p>{end}</p>
+      </div>
     </div>
   );
 };

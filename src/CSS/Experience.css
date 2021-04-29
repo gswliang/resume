@@ -3,7 +3,6 @@
   justify-items: center;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 1rem;
 }
 
 .experience__title {
@@ -38,7 +37,7 @@
 
 .title_title {
   font-size: 4rem;
-  margin: 3rem 1rem;
+  margin: 4rem 1rem;
   width: 20%;
   text-align: center;
   color: #fff;

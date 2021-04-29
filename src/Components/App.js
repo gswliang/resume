@@ -2,6 +2,7 @@ import React from "react";
 import PersonalDetails from "./personalDetails";
 import Description from "./Description";
 import Experience from "./Experience";
+import Education from "./Education";
 import "../CSS/style.css";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <PersonalDetails />
       <Description />
       <Experience />
+      <Education />
     </div>
   );
 };

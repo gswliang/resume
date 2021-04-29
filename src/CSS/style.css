@@ -10,5 +10,8 @@ html {
 }
 
 .main {
-  margin: 4rem;
+  margin: 6rem;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
 }

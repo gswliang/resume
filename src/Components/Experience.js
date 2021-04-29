@@ -31,7 +31,7 @@ const Experience = () => {
   const renderList = () => {
     const newRender = jobs.map((job) => {
       return (
-        <div className="experience">
+        <div className="experience" key={job.jobTitle}>
           <div className="experience__title">
             <img className="experience_icon" src={working} alt="work icon" />
             <div className="experience__jobtitle">{job.jobTitle} ·</div>
