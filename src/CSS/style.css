@@ -1,0 +1,14 @@
+html {
+  margin: 0;
+  box-sizing: inherit;
+  font-family: "lato", sans-serif;
+  font-size: 62.5%;
+}
+
+.body {
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 2rem;
+}

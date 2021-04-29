@@ -1,0 +1,91 @@
+.personal {
+  font-size: 2rem;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 1rem 0.6rem #aab7b7;
+}
+
+.personal__item {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 3rem;
+  width: 80%;
+  height: 25vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.personal__item--cName {
+  height: 9vh;
+  font-size: 6rem;
+  font-weight: 700;
+  padding: 1.5rem;
+  color: #12777b;
+  display: flex;
+  align-items: center;
+}
+
+.personal__item--eName {
+  height: 9vh;
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 1.5rem;
+  color: #12777b;
+  display: flex;
+  align-items: flex-end;
+}
+
+.personal__item--jobTitle {
+  margin-left: 2rem;
+  height: 3vh;
+  width: 15%;
+  background-color: #28b5bb;
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin: auto;
+}
+
+.contact {
+  flex-basis: 40%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 27rem;
+}
+
+.contact--iconPhone {
+  width: 3.5rem;
+}
+
+.contact--phone {
+  color: #9caeaf;
+  font-size: 2rem;
+}
+
+.contact--iconGmail {
+  width: 3rem;
+}
+
+.contact--email {
+  font-size: 2rem;
+  color: #9caeaf;
+}

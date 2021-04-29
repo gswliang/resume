@@ -1,0 +1,12 @@
+.description {
+  width: 100%;
+  margin-top: 3rem;
+  height: 20vh;
+  font-size: 3rem;
+  color: #0d5d60;
+}
+
+.description p {
+  line-height: 5rem;
+  letter-spacing: 0.5rem;
+}
