@@ -3,35 +3,38 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 40vh;
-  border: 1px solid royalblue;
 }
 
 .edu {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid royalblue;
+  justify-content: space-between;
+  margin-right: 3rem;
 }
 .education__image {
-  width: 10rem;
+  width: 15rem;
   margin: 1rem;
 }
 
 .education__items {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  /* justify-content: space-around; */
   margin: 3rem;
 }
 
 .education__period,
-.education__school {
+.education__school,
+.education__detail {
   font-size: 3rem;
   padding: 1rem;
-  position: relative;
-  bottom: 4rem;
-  left: 6rem;
+  color: #9caeaf;
+}
+
+.education__school,
+.education__detail {
+  color: #12777b;
+  font-weight: 600;
 }
