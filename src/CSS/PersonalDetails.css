@@ -1,6 +1,6 @@
 .personal {
   font-size: 2rem;
-  height: 50vh;
+  height: 46vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -11,7 +11,6 @@
 
 .personal__item {
   box-sizing: border-box;
-  text-align: center;
   padding: 3rem;
   width: 80%;
   height: 25vh;
@@ -49,7 +48,6 @@
   color: #fff;
   border-radius: 1.5rem;
   padding: 1.5rem;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,28 +62,60 @@
 }
 
 .contact {
-  flex-basis: 40%;
-  height: 6vh;
+  flex-basis: 60%;
+  height: 9vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-left: 27rem;
+  justify-content: flex-start;
+  margin-left: 25rem;
+  position: relative;
+  bottom: 3.5rem;
 }
 
-.contact--iconPhone {
-  width: 3.5rem;
-}
-
-.contact--phone {
+.contact__email {
+  flex-basis: 30%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   color: #9caeaf;
-  font-size: 2rem;
 }
 
 .contact--iconGmail {
   width: 3rem;
+  margin-right: 2rem;
 }
 
-.contact--email {
+.contact--iconPhone {
+  width: 4rem;
+  margin-right: 2rem;
+}
+
+.contact__phone {
+  flex-basis: 30%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  color: #9caeaf;
+}
+
+.contact__github {
+  flex-basis: 30%;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social__github--img {
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+.social__github {
+  text-decoration: none;
   font-size: 2rem;
   color: #9caeaf;
 }
