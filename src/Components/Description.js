@@ -1,5 +1,5 @@
 import "../CSS/Description.css";
-import "../CSS/Experience.css";
+import "../CSS/style.css";
 
 const Description = () => {
   const intro =

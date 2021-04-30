@@ -1,0 +1,24 @@
+.skill__logo {
+  width: 12rem;
+}
+.skill__items {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 2%;
+  /* border: 1px solid royalblue; */
+}
+
+.skill__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skill__lang {
+  font-size: 3rem;
+  color: #9caeaf;
+  margin-left: 2rem;
+}

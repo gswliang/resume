@@ -15,3 +15,15 @@ html {
   align-content: center;
   flex-direction: column;
 }
+
+.title_title {
+  font-size: 4rem;
+  margin: 4rem 1rem;
+  width: 20%;
+  text-align: center;
+  color: #fff;
+  border-radius: 1rem;
+  background: #12777b;
+  background: -webkit-linear-gradient(to right, #15dfe7, #0f8084);
+  background: linear-gradient(to right, #15dfe7, #0f8084);
+}

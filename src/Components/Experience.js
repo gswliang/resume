@@ -1,4 +1,5 @@
 import "../CSS/Experience.css";
+import "../CSS/style.css";
 import working from "../IMG/working.svg";
 
 const Experience = () => {

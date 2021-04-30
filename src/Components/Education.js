@@ -1,4 +1,4 @@
-import "../CSS/Experience.css";
+import "../CSS/style.css";
 import "../CSS/Education.css";
 import willow from "../IMG/willowridge.png";
 import ncnu from "../IMG/ncnu.png";
@@ -22,7 +22,7 @@ const Education = () => {
   const renderList = () => {
     const detail = details.map((detail) => {
       return (
-        <div className="edu">
+        <div className="edu" key={detail.school}>
           <img
             src={detail.img}
             alt="college_logo"
