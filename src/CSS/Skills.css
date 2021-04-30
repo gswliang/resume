@@ -7,7 +7,8 @@
   align-items: center;
   justify-content: center;
   margin: 2rem 2%;
-  /* border: 1px solid royalblue; */
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .skill__container {
@@ -21,4 +22,8 @@
   font-size: 3rem;
   color: #9caeaf;
   margin-left: 2rem;
+}
+
+.skill__items:hover {
+  transform: scale(1.2);
 }

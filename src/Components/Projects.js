@@ -3,6 +3,7 @@ import "../CSS/style.css";
 import videoSearch from "../IMG/video_search.png";
 import weather from "../IMG/weather.png";
 import naviBar from "../IMG/naviBar.png";
+import resume from "../IMG/resume.png";
 
 const Projects = () => {
   const items = [
@@ -25,6 +26,12 @@ const Projects = () => {
         "使用React練習實作Router功能，並且做了一些小功能,例如:翻譯、Wikipedia搜尋...等等。",
       image: naviBar,
       link: "https://navibar.netlify.app/",
+    },
+    {
+      title: "My Resume",
+      description: "個人履歷網站",
+      image: resume,
+      link: "https://graceresume.netlify.app/",
     },
   ];
 
