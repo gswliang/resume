@@ -9,7 +9,7 @@ const Description = () => {
 
   return (
     <div>
-      <div className="title_title">自我介紹</div>
+      <div className="title_title">About Me</div>
       <div className="description">
         <p>{intro}</p>
         <p>{end}</p>

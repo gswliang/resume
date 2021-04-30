@@ -11,8 +11,8 @@ const PersonalDetails = () => {
   const jobTitle = "前端工程師";
   const contact = "0968 649 865";
 
-  return (
-    <div>
+  const renderList = () => {
+    return (
       <div className="personal">
         <img src={Grace} alt="Grace" className=" photo" />
         <div className="personal__item">
@@ -48,8 +48,10 @@ const PersonalDetails = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  };
+
+  return <div>{renderList()}</div>;
 };
 
 export default PersonalDetails;

@@ -64,7 +64,7 @@ const Projects = () => {
 
   return (
     <div>
-      <div className="title_title">作品</div>
+      <div className="title_title">Projects</div>
       <div className="project__container">{renderList()}</div>
     </div>
   );

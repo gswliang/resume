@@ -63,7 +63,7 @@ const Skills = () => {
 
   return (
     <div>
-      <div className="title_title">技能</div>
+      <div className="title_title">Skills</div>
       <div className="skill__container">{renderList()}</div>
     </div>
   );

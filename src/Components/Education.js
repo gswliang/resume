@@ -42,7 +42,7 @@ const Education = () => {
 
   return (
     <div>
-      <div className="title_title">學歷</div>
+      <div className="title_title">Education</div>
       <div className="education__container">{renderList()}</div>
     </div>
   );

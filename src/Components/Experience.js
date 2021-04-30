@@ -52,7 +52,7 @@ const Experience = () => {
 
   return (
     <div>
-      <div className="title_title">工作經歷</div>
+      <div className="title_title">Experience</div>
       <div>{renderList()}</div>
     </div>
   );
