@@ -29,6 +29,50 @@
 }
 
 @media screen and (max-width: 480px) {
+  .skill__logo {
+    width: 5rem;
+  }
+
+  .skill__lang {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+  }
+  .skill__items {
+    flex-basis: 40%;
+    justify-content: flex-start;
+  }
   .skill__container {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .skill__logo {
+    width: 9rem;
+  }
+
+  .skill__lang {
+    font-size: 3rem;
+    margin: 0 1.5rem;
+  }
+  .skill__items {
+    flex-basis: 45%;
+    justify-content: flex-start;
+  }
+  .skill__container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .skill__logo {
+    width: 4rem;
+  }
+
+  .skill__lang {
+    font-size: 1.5rem;
+  }
+  .skill__items {
+    flex-basis: 45%;
   }
 }
