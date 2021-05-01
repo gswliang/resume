@@ -182,21 +182,20 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
   .personal__container {
     width: 100%;
-    height: 30%;
-    flex-direction: column;
+    height: 40%;
     align-items: center;
     justify-content: flex-start;
   }
-  /* .personal__photo {
-    max-height: 12rem;
-    max-width: 12rem;
-    margin-top: 1rem;
-  } */
+  .personal__photo {
+    max-height: 20rem;
+    max-width: 20rem;
+    margin: 1rem;
+  }
 
-  /* .personal__detail {
+  .personal__detail {
     flex: 1 0 40%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -204,56 +203,50 @@
     justify-content: center;
     margin-top: 0.6rem;
     width: 95%;
-  } */
+  }
 
-  /* .personal__item {
+  .personal__item {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: left;
     width: 100%;
-  } */
+  }
 
-  /* .personal__item--cName,
+  .personal__item--cName,
   .personal__item--eName {
     font-size: 2.5rem;
     text-align: center;
     margin: 1rem;
     padding: 0 1rem;
-  } */
+  }
 
-  /* .personal__item--jobTitle {
-    width: 50%;
+  .personal__item--jobTitle {
     font-size: 2rem;
     padding: 0.4rem;
     text-align: center;
-  } */
+  }
 
-  /* .contact {
+  .contact {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
-  } */
+    width: 80%;
+  }
 
-  /* .contact__phone {
+  .contact__phone {
     margin: 0;
     padding: 0;
-    flex: 1 0 30%;
-  } */
+    flex-basis: 60%;
+  }
 
-  /* .contact__email {
+  .contact__email {
     align-items: center;
     padding: 1rem;
-  } */
+    flex-basis: 70%;
+  }
 
-  /* .contact__github {
-    width: 100%;
-  } */
-
-  /* .social__github--img,
-  .contact--iconPhone,
-  .contact--iconGmail {
-    margin-right: 0.5rem;
-  } */
+  .contact__github {
+    flex-basis: 30%;
+  }
 }

@@ -30,4 +30,14 @@ html {
   .main {
     margin: 1rem;
   }
+
+  .title_title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+  .main {
+    margin: 2rem;
+  }
 }
