@@ -28,6 +28,6 @@ html {
 
 @media screen and (max-width: 480px) {
   .main {
-    margin: 2rem;
+    margin: 1rem;
   }
 }

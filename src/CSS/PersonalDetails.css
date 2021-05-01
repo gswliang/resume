@@ -109,13 +109,14 @@
 @media screen and (max-width: 480px) {
   .personal__container {
     width: 100%;
+    height: 30%;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
   }
   .personal__photo {
-    height: 12rem;
-    width: 12rem;
+    max-height: 12rem;
+    max-width: 12rem;
     margin-top: 1rem;
   }
 
@@ -155,14 +156,14 @@
   .contact {
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
   }
 
   .contact__phone {
     margin: 0;
     padding: 0;
-    flex: 1 0 25%;
+    flex: 1 0 30%;
   }
 
   .contact__email {
@@ -179,4 +180,80 @@
   .contact--iconGmail {
     margin-right: 0.5rem;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .personal__container {
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  /* .personal__photo {
+    max-height: 12rem;
+    max-width: 12rem;
+    margin-top: 1rem;
+  } */
+
+  /* .personal__detail {
+    flex: 1 0 40%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 0.6rem;
+    width: 95%;
+  } */
+
+  /* .personal__item {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 100%;
+  } */
+
+  /* .personal__item--cName,
+  .personal__item--eName {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 0 1rem;
+  } */
+
+  /* .personal__item--jobTitle {
+    width: 50%;
+    font-size: 2rem;
+    padding: 0.4rem;
+    text-align: center;
+  } */
+
+  /* .contact {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  } */
+
+  /* .contact__phone {
+    margin: 0;
+    padding: 0;
+    flex: 1 0 30%;
+  } */
+
+  /* .contact__email {
+    align-items: center;
+    padding: 1rem;
+  } */
+
+  /* .contact__github {
+    width: 100%;
+  } */
+
+  /* .social__github--img,
+  .contact--iconPhone,
+  .contact--iconGmail {
+    margin-right: 0.5rem;
+  } */
 }
