@@ -38,3 +38,24 @@
   color: #666b68;
   font-weight: 600;
 }
+
+@media screen and (max-width: 480px) {
+  .education__image {
+    width: 10rem;
+    margin: 0;
+  }
+  .edu {
+    margin: 1rem 0;
+  }
+
+  .education__items {
+    margin: 0 1rem;
+    width: 100%;
+  }
+
+  .education__period,
+  .education__school,
+  .education__detail {
+    font-size: 2rem;
+  }
+}
