@@ -1,2 +1,2 @@
 Welcome!
-This is Grace's Curriculum Vitae, done by react with css.
+This is Grace's Resume, done by react with css.

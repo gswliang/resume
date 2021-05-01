@@ -13,38 +13,48 @@ const PersonalDetails = () => {
 
   const renderList = () => {
     return (
-      <div className="personal">
-        <img src={Grace} alt="Grace" className=" photo" />
-        <div className="personal__item">
-          <div className="personal__item--cName">{cName}</div>
-          <div className="personal__item--eName">{eName}</div>
-          <div className="personal__item--jobTitle">{jobTitle}</div>
-        </div>
-        <div className="contact">
-          <div className="contact__email">
-            <img src={gmail} alt="gmail icon" className="contact--iconGmail" />
-            <a href={`mailto:${email}`} className="contact__email">
-              {email}
-            </a>
+      <div className="personal__container">
+        <img src={Grace} alt="Grace" className="personal__photo" />
+        <div className="personal__detail">
+          <div className="personal__item">
+            <div className="personal__item--cName">{cName}</div>
+            <div className="personal__item--eName">{eName}</div>
+            <div className="personal__item--jobTitle">{jobTitle}</div>
           </div>
-          <div className="contact__phone">
-            <img src={phone} alt="phone icon" className="contact--iconPhone" />
-            <p>{contact}</p>
-          </div>
-          <div className="contact__github">
-            <img
-              src={github}
-              alt="github-mark"
-              className="social__github--img"
-            />
-            <a
-              href="https://www.github.com/gswliang"
-              className="social__github"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
+          <div className="contact">
+            <div className="contact__email">
+              <img
+                src={gmail}
+                alt="gmail icon"
+                className="contact--iconGmail"
+              />
+              <a href={`mailto:${email}`} className="contact__email">
+                {email}
+              </a>
+            </div>
+            <div className="contact__phone">
+              <img
+                src={phone}
+                alt="phone icon"
+                className="contact--iconPhone"
+              />
+              <p>{contact}</p>
+            </div>
+            <div className="contact__github">
+              <img
+                src={github}
+                alt="github-mark"
+                className="social__github--img"
+              />
+              <a
+                href="https://www.github.com/gswliang"
+                className="social__github"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </div>
           </div>
         </div>
       </div>
