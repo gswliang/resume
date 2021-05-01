@@ -17,16 +17,11 @@ html {
 }
 
 .title_title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   font-size: 4rem;
-  margin: 4rem 1rem;
-  width: 20%;
-  height: 6rem;
-  color: #fff;
-  border-radius: 1rem;
-  background: #12777b;
-  background: -webkit-linear-gradient(to bottom, #15dfe7, #0f8084);
-  background: linear-gradient(to bottom, #15dfe7, #0f8084);
+  padding: 1rem 0;
+  margin: 2rem 0;
+  text-align: center;
+  color: #333;
+  border-bottom: 2px solid #12777b;
 }

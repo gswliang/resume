@@ -8,7 +8,7 @@
 .experience__title {
   display: flex;
   align-items: center;
-  color: #12777b;
+  color: #666b68;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -47,5 +47,5 @@
   line-height: 4rem;
   width: 80%;
   margin: 0 0 1.5rem 10rem;
-  color: #1a6265;
+  color: #666b68;
 }
