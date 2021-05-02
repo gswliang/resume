@@ -13,7 +13,7 @@
   border-radius: 1rem;
   margin: 2rem 2rem;
   width: 29%;
-  height: 70vh;
+  height: 76vh;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
@@ -130,7 +130,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 43%;
-    height: 60vh;
+    height: 45vh;
     align-items: flex-start;
     justify-content: center;
   }
