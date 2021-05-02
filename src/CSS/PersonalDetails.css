@@ -5,8 +5,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  box-shadow: 0.5rem 0.5rem 1rem 0.6rem #aab7b7;
-  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 1rem;
 }
 
 .personal__detail {
@@ -68,16 +69,15 @@
   align-items: center;
   text-decoration: none;
   color: #9caeaf;
-  padding: 1.5rem;
 }
 
 .contact--iconGmail {
-  width: 3rem;
+  width: 2rem;
   margin-right: 2rem;
 }
 
 .contact--iconPhone {
-  width: 4rem;
+  width: 3rem;
   margin-right: 2rem;
 }
 
@@ -93,10 +93,11 @@
   flex-basis: 30%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-decoration: none;
+  color: #9caeaf;
 }
 .social__github--img {
-  width: 5rem;
+  width: 3rem;
   margin-right: 2rem;
 }
 
@@ -110,18 +111,16 @@
   .personal__container {
     width: 100%;
     height: 30%;
-    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .personal__photo {
-    max-height: 12rem;
-    max-width: 12rem;
+    max-width: 10rem;
+    max-height: 10rem;
     margin-top: 1rem;
   }
 
   .personal__detail {
-    flex: 1 0 40%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -158,27 +157,42 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    margin: 2rem 1rem;
   }
 
   .contact__phone {
     margin: 0;
     padding: 0;
-    flex: 1 0 30%;
+    flex: 1 0 70%;
   }
 
+  .contact__phone p {
+    margin: 0.5rem 0;
+    font-size: 1.7rem;
+  }
   .contact__email {
     align-items: center;
-    padding: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.7rem;
   }
 
   .contact__github {
     width: 100%;
+    font-size: 1.7rem;
   }
 
   .social__github--img,
-  .contact--iconPhone,
+  .contact--iconPhone {
+    margin-right: 0.7rem;
+  }
+
+  .social__github {
+    font-size: 1.7rem;
+  }
+
   .contact--iconGmail {
-    margin-right: 0.5rem;
+    width: 3rem;
+    margin-right: 1rem;
   }
 }
 
@@ -232,18 +246,27 @@
     align-items: center;
     justify-content: flex-start;
     width: 80%;
+    margin: 2rem 0;
   }
 
   .contact__phone {
-    margin: 0;
+    margin: 1rem 0;
     padding: 0;
     flex-basis: 60%;
+  }
+  .contact__phone p {
+    margin: 0.5rem 0;
+  }
+
+  .contact--iconGmail {
+    width: 3rem;
+    margin-right: 1.9rem;
   }
 
   .contact__email {
     align-items: center;
-    padding: 1rem;
     flex-basis: 70%;
+    margin: 0;
   }
 
   .contact__github {
@@ -284,15 +307,16 @@
 
   .personal__item--cName,
   .personal__item--eName {
-    font-size: 2.5rem;
+    font-size: 4rem;
     text-align: center;
     margin: 1rem;
     padding: 0 1rem;
   }
 
   .personal__item--jobTitle {
-    font-size: 2rem;
-    padding: 0.4rem;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-left: 4rem;
     text-align: center;
   }
 
@@ -301,21 +325,32 @@
     align-items: center;
     justify-content: flex-start;
     width: 80%;
+    margin: 2rem 0;
   }
 
   .contact__phone {
-    margin: 0;
+    margin: 1rem 0;
     padding: 0;
     flex-basis: 60%;
+  }
+  .contact__phone p {
+    margin: 0.5rem 0;
+    font-size: 3rem;
+  }
+
+  .contact--iconGmail {
+    width: 3rem;
+    margin-right: 1.9rem;
   }
 
   .contact__email {
     align-items: center;
-    padding: 1rem;
+    font-size: 3rem;
     flex-basis: 70%;
+    margin: 0;
   }
 
-  .contact__github {
-    flex-basis: 30%;
+  .social__github {
+    font-size: 3rem;
   }
 }

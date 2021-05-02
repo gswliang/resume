@@ -1,5 +1,5 @@
 import React from "react";
-import PersonalDetails from "./personalDetails";
+import PersonalDetails from "./PersonalDetails";
 import Description from "./Description";
 import Experience from "./Experience";
 import Education from "./Education";

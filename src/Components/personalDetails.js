@@ -6,10 +6,11 @@ import github from "../IMG/GitHub-Mark.png";
 
 const PersonalDetails = () => {
   const cName = "梁淑文";
-  const eName = "Grace Liang";
+  const eName = "(Grace)";
   const email = " gswliang@gmail.com";
   const jobTitle = "前端工程師";
   const contact = "0968 649 865";
+  const Github = "github.com/gswliang";
 
   const renderList = () => {
     return (
@@ -52,7 +53,7 @@ const PersonalDetails = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Github
+                {Github}
               </a>
             </div>
           </div>
