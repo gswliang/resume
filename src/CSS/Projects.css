@@ -77,20 +77,24 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 55vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
   }
 
   .project__title {
-    margin: 0;
+    margin-top: 2rem;
     font-size: 2.5rem;
   }
   .project__description {
     display: flex;
-    margin: 0;
-    font-size: 3rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+    font-size: 2rem;
     flex-basis: 100%;
+  }
+  .btn {
+    margin: 1.5rem 0;
   }
 }
 
