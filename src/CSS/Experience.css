@@ -68,10 +68,11 @@
     margin: 0 1rem 0.5rem 0;
   }
   .experience__jobtitle {
+    padding-left: 2rem;
     margin: 0;
   }
   .experience__company {
-    margin-left: 4rem;
+    padding-left: 6rem;
   }
 
   .period_location {
