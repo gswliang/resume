@@ -48,7 +48,7 @@ const Projects = () => {
             }}
             className="btn project__btn"
           >
-            let's go
+            visit
           </div>
         </div>
       );
