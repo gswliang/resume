@@ -1,2 +1,1 @@
-Welcome!
-This is Grace's Resume, done by react with css.
+梁淑文的履歷
