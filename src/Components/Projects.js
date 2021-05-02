@@ -40,19 +40,16 @@ const Projects = () => {
       return (
         <div className="project__items" key={item.title}>
           <div className="project__title">{item.title}</div>
-          <a
-            href={item.link}
-            target="_blank"
-            rel="noreferrer"
-            className="project__link"
-          >
-            <img
-              src={item.image}
-              alt="project_image"
-              className="project_image"
-            />
-          </a>
+          <img src={item.image} alt="project_image" className="project_image" />
           <div className="project__description">{item.description}</div>
+          <div
+            onClick={() => {
+              window.open(item.link, "__blank");
+            }}
+            className="btn project__btn"
+          >
+            let's go
+          </div>
         </div>
       );
     });
