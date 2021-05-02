@@ -130,20 +130,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 43%;
-    height: 50vh;
+    height: 60vh;
     align-items: flex-start;
     justify-content: center;
   }
 
   .project__title {
-    margin: 0;
+    margin-top: 3rem;
     font-size: 3rem;
   }
 
   .project__description {
     display: flex;
     width: 100%;
-    margin: 0;
     font-size: 3rem;
   }
 
