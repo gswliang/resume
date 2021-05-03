@@ -150,7 +150,7 @@
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: landscape) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 950px) and (orientation: landscape) {
   .project__items {
     height: 150vh;
   }

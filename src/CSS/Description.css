@@ -28,9 +28,9 @@
   }
 }
 
-@media screen and (max-width: 812px) and (orientation: landscape) {
+@media screen and (min-width: 300px) and (max-width: 950px) and (orientation: landscape) {
   .description p {
-    line-height: 3rem;
+    line-height: 2;
     font-size: 2rem;
     font-weight: 500;
     margin: 0;
