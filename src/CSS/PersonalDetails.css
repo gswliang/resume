@@ -114,6 +114,7 @@
     height: 30%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0.5rem;
   }
   .personal__photo {
     max-width: 10rem;

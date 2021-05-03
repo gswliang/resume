@@ -41,3 +41,14 @@ html {
     margin: 2rem;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 812px) and (orientation: landscape) {
+  .main {
+    margin: 2rem;
+  }
+
+  .title_title {
+    font-size: 3rem;
+    margin: 0.5rem 0 2rem 0;
+  }
+}

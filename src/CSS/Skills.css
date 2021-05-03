@@ -76,3 +76,14 @@
     flex-basis: 45%;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: landscape) {
+  .skill__logo {
+    width: 5rem;
+  }
+
+  .skill__lang {
+    font-size: 2.5rem;
+    margin: 0 1.5rem;
+  }
+}

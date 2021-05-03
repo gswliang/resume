@@ -95,14 +95,21 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .period_location {
     font-size: 2rem;
-    align-items: flex-start;
-    left: 10rem;
+    height: 4vh;
+    align-items: center;
+    left: 7rem;
     bottom: 0;
     width: 60%;
   }
 
   .experience__description {
-    font-size: 3rem;
+    margin: 0 0 2rem 5.5rem;
+    font-size: 2.5rem;
+  }
+
+  .experience_icon {
+    width: 4rem;
+    margin: 0 1rem 0.5rem 0;
   }
 }
 
@@ -117,5 +124,26 @@
 
   .experience__description {
     font-size: 3rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: landscape) {
+  .period_location {
+    font-size: 2rem;
+    height: 10vh;
+    align-items: center;
+    left: 6rem;
+    width: 80%;
+  }
+
+  .experience__description {
+    margin: 1rem 0 2rem 5.5rem;
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+
+  .experience_icon {
+    width: 4rem;
+    margin: 0 1rem 0.5rem 0;
   }
 }
