@@ -4,6 +4,7 @@ import videoSearch from "../IMG/video_search.png";
 import weather from "../IMG/weather.png";
 import naviBar from "../IMG/naviBar.png";
 import resume from "../IMG/resume.png";
+import BitcoEx from "../IMG/bitco.jpg";
 
 const Projects = () => {
   const items = [
@@ -32,6 +33,12 @@ const Projects = () => {
       description: "個人履歷網站",
       image: resume,
       link: "https://graceresume.netlify.app/",
+    },
+    {
+      title: "BitcoEx-幣圈",
+      description: "模擬幣圈網站,使用React scroll來練習一頁式網站。",
+      image: BitcoEx,
+      link: "https://bitcoex.netlify.app/",
     },
   ];
 
