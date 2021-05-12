@@ -36,7 +36,8 @@ const Projects = () => {
     },
     {
       title: "BitcoEx-幣圈",
-      description: "模擬幣圈網站,使用React scroll來練習一頁式網站。",
+      description:
+        "模擬幣圈網站,使用React scroll來練習一頁式網站, 目前還在建造中....",
       image: BitcoEx,
       link: "https://bitcoex.netlify.app/",
     },
